@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+declare function cambiar_login(): string ;
+declare function cambiar_sign_up(): string ;
+declare function ocultar_login_sign_up(): string ;
+
 
 @Component({
   selector: 'app-loginUser',
