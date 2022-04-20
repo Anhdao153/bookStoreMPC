@@ -14,6 +14,9 @@ export class LoginUserComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    cambiar_login();
+    cambiar_sign_up();
+    ocultar_login_sign_up();
   }
 
 }
